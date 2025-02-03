@@ -1,7 +1,7 @@
 # Elastic Search Spring 구현 연습
 
 MySQL
-```Shell
+```shell
 docker run --name dolang-mysql `
  -e MYSQL_ROOT_PASSWORD=password `
  -e MYSQL_DATABASE=dolang `
@@ -12,7 +12,7 @@ docker run --name dolang-mysql `
 ```
 
 ElasticSearch
-```Shell
+```shell
 docker run --name dolang-es `
 -p 9200:9200 `
 -e "ELASTIC_PASSWORD=password"`
